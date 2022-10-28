@@ -1,0 +1,29 @@
+* {
+
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 120pt;
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: black;
+    }
+
+    h1 {
+        color: white;
+    }
+}
